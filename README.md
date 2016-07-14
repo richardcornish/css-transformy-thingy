@@ -1,3 +1,3 @@
-# CSS Transforms Thingy™
+# CSS Transformy Thingy™
 
 This repository contains the source code for a thingy that does CSS transforms.
