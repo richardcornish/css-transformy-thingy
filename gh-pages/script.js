@@ -19,7 +19,7 @@ $(document).ready(function(){
         var rotate = 'rotate(' + $('.range-rotate').val() + 'deg) ';
         var rotate_x = 'rotateX(' + $('.range-rotate-x').val() + 'deg) ';
         var rotate_y = 'rotateY(' + $('.range-rotate-y').val() + 'deg) ';
-        var rotate_z = 'rotateX(' + $('.range-rotate-z').val() + 'deg) ';
+        var rotate_z = 'rotateZ(' + $('.range-rotate-z').val() + 'deg) ';
         var scale_x = 'scaleX(' + $('.range-scale-x').val() + ') ';
         var scale_y = 'scaleY(' + $('.range-scale-y').val() + ') ';
         var translate_x = 'translateX(' + $('.range-translate-x').val() + 'px) ';
