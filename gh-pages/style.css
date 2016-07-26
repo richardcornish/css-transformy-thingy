@@ -19,19 +19,6 @@ body {
     background-image: linear-gradient(#F59331, #C27427);
 }
 
-.box:hover {
-    animation: opacity .25s ease infinite alternate;
-}
-
-@keyframes opacity {
-    0% {
-        opacity: 1
-    }
-    100% {
-        opacity: .9
-    }
-}
-
 input {
     margin-bottom: 15px;
 }
