@@ -10,12 +10,6 @@ body {
     border-radius: 0;
 }
 
-@keyframes spin {
-    0% {
-        transform: perspective(200px) rotate(0) rotateX(0) rotateY(0) rotateZ(0) scaleX(1) scaleY(1) translateX(0) translateY(0) translateZ(0) skewX(0) skewY(0);
-    }
-}
-
 .box {
     position: fixed;
     top: 0;
@@ -30,6 +24,12 @@ body {
     animation: spin 1s ease infinite alternate;
 }
 
+@keyframes spin {
+    0% {
+        transform: perspective(200px) rotate(0) rotateX(0) rotateY(0) rotateZ(0) scaleX(1) scaleY(1) translateX(0) translateY(0) translateZ(0) skewX(0) skewY(0);
+    }
+}
+
 input {
     margin-bottom: 15px;
 }
@@ -39,6 +39,7 @@ input[type="color"] {
 }
 
 input[type="range"] {
+    -webkit-appearance: none;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 100px;
