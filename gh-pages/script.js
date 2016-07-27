@@ -82,4 +82,8 @@ $(document).ready(function(){
         $('.box').css({'transform': getTransforms()});
     });
 
+    $('.range-duration').on('input change', function () {
+        $('.box').css({'animation-duration': $(this).val() + 's'});
+    });
+
 });
