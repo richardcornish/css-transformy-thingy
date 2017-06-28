@@ -63,27 +63,27 @@ $(document).ready(function(){
     });
 
     $('.range-rotate, .range-rotate-x, .range-rotate-y, .range-rotate-z').on('input change', function () {
-        $('.box').css({'transform': getTransforms()});
+        $('.box').css({'-webkit-transform': getTransforms()});
     });
 
     $('.range-scale-x, .range-scale-y').on('input change', function () {
-        $('.box').css({'transform': getTransforms()});
+        $('.box').css({'-webkit-transform': getTransforms()});
     });
 
     $('.range-translate-x, .range-translate-y, .range-translate-z').on('input change', function () {
-        $('.box').css({'transform': getTransforms()});
+        $('.box').css({'-webkit-transform': getTransforms()});
     });
 
     $('.range-skew-x, .range-skew-y').on('input change', function () {
-        $('.box').css({'transform': getTransforms()});
+        $('.box').css({'-webkit-transform': getTransforms()});
     });
 
     $('.range-perspective').on('input change', function () {
-        $('.box').css({'transform': getTransforms()});
+        $('.box').css({'-webkit-transform': getTransforms()});
     });
 
     $('.range-duration').on('input change', function () {
-        $('.box').css({'animation-duration': $(this).val() + 's'});
+        $('.box').css({'-webkit-animation-duration': $(this).val() + 's'});
     });
 
 });
